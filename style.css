@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-image: url(img/background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 70px;
+    color: rgb(144,192,103);
+    text-shadow: 
+               -1px -1px 0px black, 
+               -1px 1px 0px black,      
+                1px -1px 0px black,    
+                1px 0px 0px black;
+}
+
+.cornelio{
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 40px;
+    color: rgb(144,192,103);
+    text-shadow: 
+               -1px -1px 0px black, 
+               -1px 1px 0px black,      
+                1px -1px 0px black,    
+                1px 0px 0px black;
+    margin-top: -25px;
+    margin-left: -80px;
+}
+
+.topo{
+    height: 140px;
+    width: 60%;
+    margin: 20px auto 20px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reciclagem{
+    height: 320px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.texto{
+    padding: 20px 20px 20px 20px;
+}
+
+.estatistica{
+    margin: 0 auto 0 auto;
+    width: 70%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(142, 201, 136);
+}
+
+p{
+    text-indent: 3ch;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 2px;
+}
+
+select{
+    padding: 2px;
+}
+
+.dica-container{
+    background-color: rgb(142, 201, 136);
+    width: 35%;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+header{
+    padding: 0 0 20px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#form-dica{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#form-dica h3{
+    margin-bottom: 10px;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.form-interno{
+    display: flex;
+}
+
+.form-interno input, select{
+    margin-right: 5px;
+}
+
+.filtro{
+    border-bottom: 1px solid black;
+}
+
+.filtro h3{
+    margin-top: 5px;
+    margin-left: 10px;
+    
+}
+
+#form-filtro{
+    display: flex;
+    padding: 10px;
+}
+
+#filtro-input{
+    margin-right: 5px;
+}
+
+.dica{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.metal{
+    background-color: rgb(228, 228, 128);
+}
+
+.plastico{
+    background-color: rgb(224, 80, 80);
+}
+
+.papel{
+    background-color: rgb(79, 136, 243);
+}
+
+.organico{
+    background-color: rgb(70, 50, 50);
+}
+
+.vidro{
+    background-color: rgb(62, 151, 62);
+}
+
+.item-dica{
+    display: flex;
+}
+
+.dica.oculto {
+    display: none;
+}
+
+.horarios{
+    background-color: rgb(142, 201, 136);
+    width: 35%;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horarios h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 110%;
+}
+
+.btnHorario{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.all-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0 50px 0;
+}
+
+li{
+    border-bottom: 1px solid black;
+    height: 50px;
+    padding: 15px;
+}

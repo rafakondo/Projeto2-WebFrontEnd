@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Raleway:ital,wght@0,600;1,200&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <div class="topo">
+        <h1>COLETA DE LIXO</h1>
+        <p class="cornelio">CORNÉIO PROCÓPIO</p>
+    </div>
+    <div class="estatistica">
+        <img class="reciclagem" src="img/reciclagem.jpg" alt="Reciclagem">
+        <div class="texto">
+            <h2>RECICLAGEM NO BRASIL</h2>
+            <p>Um quarto das cidades brasileiras não tem coleta seletiva, é o que indica a última edição do Panorama dos Resíduos Sólidos, publicado recentemente pela Associação Brasileira de Empresas de Limpeza Pública e Resíduos (Abrelpe). Ou seja, são cerca de 1400 municípios ainda sem nenhuma política pública que promova e incentive a separação do lixo reciclável entre a população. Ainda de acordo com o documento, aproximadamente 4.145 municípios apresentam alguma iniciativa de coleta seletiva, mas muitas vezes a prestação do serviço é limitada e insuficiente.</p>
+            <p>Ainda de acordo com os dados do estudo, 77% dos brasileiros sabem que boa parte dos plásticos, por exemplo, é lixo reciclável, mas a grande maioria ainda insiste em descartar esses resíduos de forma inadequada. Três em cada quatro municípios brasileiros (75%) apresentaram alguma iniciativa de coleta seletiva. Porém, a Abrelpe ressalta que, em muitos, essa atividade não chega a toda a população, podendo ser apenas ações pontuais. Na análise regional, as diferenças são relevantes: no Sul e no Sudeste, mais de 90% das cidades contam com projetos na área, enquanto que no Centro-Oeste pouco mais de 50% têm alguma iniciativa nesse sentido. </p>
+        </div>
+    </div>
+    <div class="all-container">
+        <div class="dica-container">
+            <header>
+                <h2>Dicas sobre reciclagem</h2>
+            </header>
+            <form id="form-dica">
+                <h3>Digite uma dica</h3>
+                <div class="form-interno">
+                    <select id="tipo-material">
+                        <option value="Papel: ">Papel</option>
+                        <option value="Plastico: ">Plástico</option>
+                        <option value="Metal: ">Metal</option>
+                        <option value="Vidro: ">Vidro</option>
+                        <option value="Organico: ">Orgânico</option>
+                    </select>
+                    <input type="text" id="dica-input" placeholder="Digite sua dica">
+                    <button type="submit">
+                        Enviar
+                    </button>
+                </div>   
+            </form>
+            <div class="filtro">
+                <h3>Filtrar por: </h3>
+                <form id="form-filtro">
+                    <input id="filtro-input" placeholder="Digite o material">
+                    <button id="botaoFiltro" type="submit">
+                        Filtrar
+                    </button>
+                </form>  
+            </div>
+            <div id="lista">
+            <!--    <div class="dica metal">                *testes
+                    <div class="item-dica">
+                        <h4>Metal: </h4>
+                        <h4>é atraido por imã</h4>              
+                    </div>
+                    <button class="botaoExcluir">
+                        Excluir
+                    </button>
+                </div>
+                <div class="dica plastico">
+                    <div class="item-dica">
+                        <h4>Plastico: </h4>
+                        <h4>é encontrado na garrafa pet</h4>
+                    </div>
+                    <button class="botaoExcluir">
+                        Excluir
+                    </button>
+                </div>
+                <div class="dica papel">
+                    <div class="item-dica">
+                        <h4>Papel: </h4>
+                        <h4>pode ser feito de arvores</h4>
+                    </div>
+                    <button class="botaoExcluir">
+                        Excluir
+                    </button>
+                </div>
+                <div class="dica organico">
+                    <div class="item-dica">
+                        <h4>Organico: </h4>
+                        <h4>se decompoe</h4>
+                    </div>
+                    <button class="botaoExcluir">
+                        Excluir
+                    </button>
+                </div>
+                <div class="dica vidro">
+                    <div class="item-dica">
+                        <h4>Vidro: </h4>
+                        <h4>pode ser transparente</h4>
+                    </div>
+                    <button class="botaoExcluir">
+                        Excluir
+                    </button>
+                </div> -->
+            </div>
+        </div>
+        <div class="horarios">
+            <h5>Horários de Coleta por Bairro</h5>
+
+            <button class="btnHorario" id="btnMostrarHorarios">Ver Horários de Coleta</button>
+
+            <ul id="listaHorarios">
+                
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
